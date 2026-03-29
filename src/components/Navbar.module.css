@@ -188,4 +188,10 @@
   .mobileControls {
     display: flex;
   }
+  .logoImg {
+    height: 42px;
+  }
+  .logoText {
+    font-size: 1.3rem;
+  }
 }

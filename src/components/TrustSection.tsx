@@ -36,7 +36,7 @@ const specs = [
 
 const paymentTerms = [
   { label: 'Payment Methods', value: 'Bank Transfer (SWIFT), LC, PayPal' },
-  { label: 'Support Language', value: 'English, Arabic, Hindi, Kannada, Tamil' },
+  { label: 'Support Language', value: 'English, Telugu, Hindi, Kannada, Tamil' },
   { label: 'Bulk Pricing', value: 'Tiered B2B Rates Available' },
 ];
 
