@@ -54,7 +54,7 @@ const ContactFooter = () => {
               </div>
               <div className={styles.contactItem}>
                 <MapPin size={18} className={styles.icon} />
-                <span>Bangalore, Karnataka, India</span>
+                <span>Bengaluru, Karnataka, India</span>
               </div>
             </div>
           </div>

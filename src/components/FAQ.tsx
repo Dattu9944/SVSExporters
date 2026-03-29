@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: 'How fresh will my flowers be on arrival?',
-    a: 'Our flowers are harvested fresh within 24 hours of dispatch, packed in 5-ply export cartons with ice gel or hydration packs, and dispatched via Bangalore International Airport. This ensures maximum freshness with a typical vase life of 7–10 days on arrival.',
+    a: 'Our flowers are harvested fresh within 24 hours of dispatch, packed in 5-ply export cartons with ice gel or hydration packs, and dispatched via Bengaluru International Airport. This ensures maximum freshness with a typical vase life of 7–10 days on arrival.',
   },
   {
     q: 'What shipping terms do you offer?',

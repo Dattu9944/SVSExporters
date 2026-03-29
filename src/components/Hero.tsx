@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          🌸 Bangalore, South India · Est. 2014
+          🌸 Bengaluru, South India · Est. 2014
         </motion.div>
 
         <motion.h1 
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Premium export-quality flowers & traditional garlands from South Indian farms — delivered globally in 24–72 hours via Bangalore Airport, with cold-chain freshness guaranteed.
+          Premium export-quality flowers & traditional garlands from South Indian farms — delivered globally in 24–72 hours via Bengaluru Airport, with cold-chain freshness guaranteed.
           <br /><br />
           <span className={styles.trustQuote}>
             “Trusted by international buyers with successful exports to the UK, USA, and Middle East.”

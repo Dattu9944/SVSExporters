@@ -21,7 +21,7 @@ const steps = [
   {
     icon: <PlaneTakeoff size={32} />,
     title: 'Global Air Dispatch',
-    desc: 'Fast shipment via Bangalore International Airport to 15+ countries in 24-72 hours.'
+    desc: 'Fast shipment via Bengaluru International Airport to 15+ countries in 24-72 hours.'
   }
 ];
 

@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     name: 'Suresh Menon',
-    role: 'Event Decorator, Bangalore',
+    role: 'Event Decorator, Bengaluru',
     quote: 'Bulk ordering from SVS Exporters for corporate events has been effortless. Wide variety, premium quality, competitive pricing. Their team has never let us down even during peak wedding seasons.',
     rating: 5,
     initial: 'S',

@@ -41,7 +41,7 @@ const ExportLogistics: React.FC = () => {
               transition={{ duration: 0.4, delay: 0.3 }}
             >
               <div className={styles.iconBox}><Plane size={20} /></div>
-              <span><strong>Air Shipment (BLR):</strong> Rapid dispatch via Bangalore International Airport.</span>
+              <span><strong>Air Shipment (BLR):</strong> Rapid dispatch via Bengaluru International Airport.</span>
             </motion.li>
             <motion.li
               initial={{ opacity: 0, x: -20 }}

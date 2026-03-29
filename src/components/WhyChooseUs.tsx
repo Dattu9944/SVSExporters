@@ -22,7 +22,7 @@ const reasons = [
   {
     icon: <Clock3 size={30} />,
     title: '24–72 Hr Dispatch',
-    desc: 'From harvest to Bangalore International Airport in under 24 hours. Your flowers depart fresh and arrive brilliant, consistently, every shipment.',
+    desc: 'From harvest to Bengaluru International Airport in under 24 hours. Your flowers depart fresh and arrive brilliant, consistently, every shipment.',
   },
   {
     icon: <ShieldCheck size={30} />,

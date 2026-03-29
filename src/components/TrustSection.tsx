@@ -28,7 +28,7 @@ const certs = [
 const specs = [
   { label: 'Packaging', value: '5-Ply Export Cartons' },
   { label: 'Protection', value: 'Ice Gel / Hydration Pack' },
-  { label: 'Dispatch Airport', value: 'Bangalore (BLR)' },
+  { label: 'Dispatch Airport', value: 'Bengaluru (BLR)' },
   { label: 'Dispatch Frequency', value: 'Daily / Weekly' },
   { label: 'Lead Time', value: '24 – 72 Hours' },
   { label: 'Shipping Terms', value: 'FOB / CIF Available' },
