@@ -1,0 +1,134 @@
+.trustSection {
+  background-color: var(--bg-secondary);
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--text-light);
+  max-width: 700px;
+  margin: -2rem auto 3rem;
+}
+
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.certCard {
+  background: var(--bg-primary);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border-top: 3px solid var(--secondary);
+  transition: all 0.3s ease;
+}
+
+.certCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.certIcon {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.certTitle {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--primary-dark);
+  margin-bottom: 0.75rem;
+}
+
+.certDesc {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.specWrapper {
+  background: var(--primary);
+  border-radius: 16px;
+  padding: 3rem;
+  color: var(--text-white);
+}
+
+.specTitle {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--secondary);
+}
+
+.specGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.2rem;
+}
+
+.specItem {
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border: 1px solid rgba(200,169,81,0.3);
+}
+
+.specLabel {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-light);
+  opacity: 0.85;
+}
+
+.specValue {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-white);
+}
+
+.paymentStrip {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  border-top: 1px dashed rgba(0,0,0,0.1);
+  padding-top: 2rem;
+}
+
+.paymentItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.paymentLabel {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--primary-dark);
+}
+
+.paymentValue {
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .paymentStrip {
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
+}

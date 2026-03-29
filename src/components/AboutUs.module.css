@@ -1,0 +1,111 @@
+.aboutSection {
+  background-color: var(--bg-primary);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.textContent, .imageContent {
+  flex: 1;
+}
+
+.label {
+  display: inline-block;
+  color: var(--secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding-top: 2rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.iconBox {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--accent-pink);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.feature:hover .iconBox {
+  background-color: var(--primary);
+  color: var(--text-white);
+  transform: translateY(-5px);
+}
+
+.feature span {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.imageGrid {
+  position: relative;
+}
+
+.imgLarge {
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  object-fit: cover;
+  aspect-ratio: 4/5;
+}
+
+.imgSmallWrapper {
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  width: 55%;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  padding: 10px;
+  background-color: var(--bg-primary);
+}
+
+.imgSmall {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .imgSmallWrapper {
+    right: 10px;
+    bottom: -20px;
+  }
+}

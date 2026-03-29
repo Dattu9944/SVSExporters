@@ -1,0 +1,28 @@
+.floatBtn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #25D366; /* WhatsApp Green */
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow-lg);
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.floatBtn:hover {
+  transform: scale(1.1);
+  background-color: #1EBE5D;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
