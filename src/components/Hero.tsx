@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
         >
           <a href="#contact" className={`btn btn-secondary ${styles.btnLarge}`}>Request Quote</a>
           <a href="#products" className={`btn btn-outline-white ${styles.btnLarge}`}>View Products</a>
-          <a href="/catalog.pdf" download className={`btn btn-outline-white ${styles.btnLarge}`}>Download Catalog 📥</a>
+          <a href="/catalog.pdf" download="SVS Exporters Catalog.pdf" className={`btn btn-outline-white ${styles.btnLarge}`}>Download Catalog 📥</a>
         </motion.div>
 
         <motion.div
