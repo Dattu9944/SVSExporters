@@ -4,10 +4,10 @@ import { ShieldCheck, Plane, Clock, Leaf } from 'lucide-react';
 import styles from './Hero.module.css';
 
 const trustBadges = [
-  { icon: <ShieldCheck size={16} />, text: 'APEDA Certified' },
-  { icon: <Plane size={16} />, text: 'Air Shipment via BLR' },
-  { icon: <Clock size={16} />, text: '24–72 Hr Dispatch' },
-  { icon: <Leaf size={16} />, text: 'Farm-Direct Sourcing' },
+  { icon: <ShieldCheck size={16} />, text: 'UK & USA Compliant' },
+  { icon: <Plane size={16} />, text: 'Daily Air Dispatch' },
+  { icon: <Clock size={16} />, text: 'Bengaluru Airport (BLR)' },
+  { icon: <Leaf size={16} />, text: 'Own Dedicated Farms' },
 ];
 
 const Hero: React.FC = () => {
