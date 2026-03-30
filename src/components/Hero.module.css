@@ -120,6 +120,7 @@
     padding-top: 8rem; /* Increased to 128px for mobile header clearance */
     min-height: auto;
     padding-bottom: 4rem;
+    background-attachment: scroll; /* Fix for iOS whitish/missing background issue */
   }
   .title {
     font-size: 2.6rem;
